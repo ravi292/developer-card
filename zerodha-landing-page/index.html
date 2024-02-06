@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zerodha</title>
+    <link href="https://fonts.googleapis.com/css?family=Inter:400,500" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+            <img class="logoPng" src="images/logo.svg" alt="Zerodha Logo">
+        <div class="navigations">
+            <div class="links">SignUp</div>
+            <div class="links">About</div>
+            <div class="links">Products</div>
+            <div class="links">Pricing</div>
+            <div class="links">Support</div>
+        </div>
+    </div>
+
+    <div class="landing-image">
+        <img src="images/photo.png" alt="Landing Page">
+    </div>
+    <h1 class="landing-title">
+        Invest in everything
+    </h1>
+    <div class="landing-subtitle">
+        Online platform to invest in stocks, derivatives, mutual funds, and more
+    </div>
+    <div class="button">
+        <a href="#">Sign up now</a>
+    </div>
+
+    <div class="container">
+        <h1 class="calculator-title">Returns Calculator</h1>
+        <div class="calculator">
+            <form action="#" class="returnsCalulator">
+                <div>
+                    <div>
+                        <label for="capital">Capital</label>
+                        <input type="number" placeholder="Enter your capital" name="capital" id="capital">
+                    </div>
+                    <div>
+                        <label for="years">Years</label>
+                        <input type="number" placeholder="Enter number years" name="years" id="years">
+                    </div>
+                    <div>
+                        <label for="interest">Interest</label>
+                        <input type="number" placeholder="Enter your interest" name="interest" id="interest">
+                    </div>
+                </div>
+
+                <div class="resultContainer">
+                    <div>
+                        <label for="result">Total Returns: </label>
+                        <input type="number" class="result" disabled value="0">
+                    </div>
+                </div>
+                <div class="interestContainer">
+                    <div>
+                        <label for="interest">Interest Earned: </label>
+                        <input type="number" class="interest" disabled value="0">
+                    </div>
+                </div>
+                <div class="buttonsContainer">
+                    <button class="calculate" type="submit">Calculate</button>
+                    <button class="clear" type="button">Clear</button>
+                </div>
+            </form> 
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
