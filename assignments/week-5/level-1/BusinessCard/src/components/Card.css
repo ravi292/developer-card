@@ -1,0 +1,17 @@
+.cardDiv {
+	width: 200px; /* Adjust the width as needed */
+	padding: 20px; /* Adjust the padding as needed */
+	border: 2px solid #333; /* Border color and thickness */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+	/* Mobile styles go here */
+	input {
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+	/* You may need to adjust other styles based on your design */
+}
