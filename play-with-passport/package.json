@@ -1,0 +1,18 @@
+{
+  "name": "passport-play",
+  "version": "1.0.0",
+  "description": "Playing with passport to see how it works and social login works",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Passport",
+    "OAuth"
+  ],
+  "author": "Ravi Agarwal",
+  "license": "ISC",
+  "dependencies": {
+    "passport-local": "^1.0.0"
+  }
+}
