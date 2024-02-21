@@ -1,0 +1,43 @@
+<%- include("partials/header") %>
+
+<div class="ui placeholder segment">
+  <div class="ui two column stackable center aligned grid">
+
+    <div class="middle aligned row">
+      <div class="column">
+        <div class="ui icon header">
+          <i class="search icon"></i>
+          Find Movies and Events
+        </div>
+        <form action="/movies" method="POST">
+          <div class="field">
+            <div class="ui search">
+              <div class="ui icon input">
+                <input class="prompt" type="text" name="search"placeholder="Search Movies...">
+                <i class="search icon"></i>
+              </div>
+              <div class="results"></div>
+            </div>
+          </div>
+        </div>
+        </form>
+        <div class="ui vertical divider">Or</div>
+      <div class="column">
+        <div class="ui icon header">
+          <i class="world icon"></i>
+          Add New Event/Movie
+        </div>
+        <a href="/event/new" class="ui primary button">
+          Add
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+</div>
+<%- include("partials/footer") %>
