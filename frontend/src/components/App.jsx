@@ -6,7 +6,7 @@ export default function App() {
     const [cards, setCards] = useState([])
 
     useEffect(() => {
-        fetch('http://127.0.0.1:3000/api/cards')
+        fetch('https://e-developer-card-1rk1.onrender.com')
             .then((res) => res.json())
             .then((data) => {
                 setCards(data);
